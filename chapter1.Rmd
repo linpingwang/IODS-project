@@ -1,5 +1,8 @@
+Chapter 1 start up (R, RStudio, git, GitHub)
+=======
 
-# About the project
+**About the project**
+
 *this is about first time use repositories of github, and set up the github page.*
 
 
