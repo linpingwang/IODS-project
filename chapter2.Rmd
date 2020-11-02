@@ -31,7 +31,7 @@ summary(model1)
 ### stra and surf are not significant!
 
 ### remove the un-significant variables and model again
-model2 <- lm(points ~ attitude, data = students2014)
+model2 <- lm(points ~ attitude  + stra, data = students2014)
 summary(model2)
 ### the intercept of the model2 is 11.6372, and slop is 3.5255, Multiple R-squared is 0.1906
 ```
@@ -39,7 +39,7 @@ summary(model2)
 **4 diagnostic plots**
 ```{r}
 par(mfrow = c(2,2))
-plot(model2)
+plot(model2,which = c(1,2,5))
 
 ```
 
