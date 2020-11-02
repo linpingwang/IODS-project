@@ -16,6 +16,16 @@ output:
 
 ```{r child = "chapter1.Rmd"}
 # This will include Chapter 1 (that is updated in its own file) in the document.
+
+setwd("C:/LocalData/linwang/OneDrive - University of Helsinki/course/Open data science 2020/IODS-project")
+
+# This is a so-called "R chunk" where you can write R code.
+help(AirPassengers)
+plot(AirPassengers) 
+x <- seq(1,10, by = 1)
+y <- runif(20, min = 1, max = 100)
+plot(diff(y) )
+plot(diff (x))
 ```
   
 ***
