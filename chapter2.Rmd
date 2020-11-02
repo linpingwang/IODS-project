@@ -7,14 +7,12 @@
 - Assume the reader has no previous knowledge of your data or the more advanced methods you are using.
 
 ```{r}
-install.packages("cobs")
 library("cobs")
 data(globtemp)
 par(mfrow = c(2,1))
 plot(globtemp) 
 plot(diff(globtemp) )
 
-install.packages("astsa")
 library("astsa")
 plot(cmort)
 plot(diff(cmort))
