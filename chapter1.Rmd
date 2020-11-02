@@ -1,15 +1,10 @@
 
 # About the project
+*this is about first time use repositories of github, and set up the github page.*
 
-*Write a short description about the course and add a link to your GitHub repository here. This is an R Markdown (.Rmd) file so you should use R Markdown syntax.*
 
+1, try the plots 
 ```{r}
-# This is a so-called "R chunk" where you can write R code.
-
-date()
-
-setwd("C:/LocalData/linwang/OneDrive - University of Helsinki/course/Open data science 2020/IODS-project")
-
 # This is a so-called "R chunk" where you can write R code.
 
 x <- seq(1,10, by = 1)
@@ -18,5 +13,17 @@ plot(diff(y) )
 plot(diff (x))
 
 ```
-The text continues here.
 
+2, try R packages and plots
+
+```{r}
+library("cobs")
+par(mfrow = c(2,1))
+plot(globtemp) 
+plot(diff(globtemp) )
+
+library("astsa")
+plot(cmort)
+plot(diff(cmort))
+
+```
