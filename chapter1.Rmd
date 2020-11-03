@@ -1,4 +1,4 @@
-Chapter 1 start up (R, RStudio, git, GitHub)
+Chapter 1 start up (R, RStudio, Git, GitHub)
 =======
 
 **About the project**
@@ -9,6 +9,7 @@ My name is Linping Wang, I used R a bit before, but never use Markdown. I just r
 
 I hope through this course I can build up the good habit about using R, and Git and GitHub. I thank my college Xiandan who introduce this course to me.
 
+My GitHub respository for IODS-project: [link](https://github.com/linpingwang/IODS-project)
 
 1, try the plots 
 ```{r}
