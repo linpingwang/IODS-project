@@ -5,6 +5,10 @@ Chapter 1 start up (R, RStudio, git, GitHub)
 
 *this is about first time use repositories of github, and set up the github page.*
 
+My name is Linping Wang, I used R a bit before, but never use Markdown. I just realize it is amazing in showing result and data analysis process. In addition, it very important work in R project, which help organize and recall the analysis.  
+
+I hope through this course I can build up the good habit about using R, and Git and GitHub. I thank my college Xiandan who introduce this course to me.
+
 
 1, try the plots 
 ```{r}
